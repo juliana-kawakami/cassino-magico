@@ -1,6 +1,10 @@
 import "./globals.css";
 import Themes from "../components/Themes";
 
+export const metadata = {
+  title: "Cassino Mágico",
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col h-full w-full gap-5">
