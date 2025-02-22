@@ -111,7 +111,7 @@
     {
       "id": 13,
       "level": "fácil",
-      "question": "Smells like teen spirit by Nirvana",
+      "question": "Qual é a música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -120,7 +120,7 @@
     {
       "id": 14,
       "level": "médio",
-      "question": "All Star",
+      "question": "Qual é a música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -129,7 +129,7 @@
     {
       "id": 15,
       "level": "difícil",
-      "question": "Butterfly",
+      "question": "Qual é a música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -138,7 +138,7 @@
     {
       "id": 16,
       "level": "impossível",
-      "question": "I’m a Believer",
+      "question": "Qual é a música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
