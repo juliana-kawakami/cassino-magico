@@ -3,7 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import data from "../data.json";
 import "../globals.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 
 interface Question {
   id: number;
@@ -13,7 +13,7 @@ interface Question {
   time: number;
 }
 
-export default function Question() {
+function QuestionContent() {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
@@ -22,9 +22,7 @@ export default function Question() {
   useEffect(() => {
     if (id) {
       // Encontra a pergunta correspondente no JSON
-      const questionId = data.questions.find(
-        (q) => q.id === parseInt(id)
-      );
+      const questionId = data.questions.find((q) => q.id === parseInt(id));
       setQuestion(questionId || null);
     }
   }, [id]);
@@ -47,5 +45,13 @@ export default function Question() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function Question() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <QuestionContent />
+    </Suspense>
   );
 }

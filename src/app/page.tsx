@@ -1,9 +1,6 @@
 import "./globals.css";
 import Themes from "../components/Themes";
 
-export const metadata = {
-  title: "Cassino Mágico",
-};
 
 export default function Home() {
   return (
