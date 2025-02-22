@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col h-full w-full gap-5">
       <div className="flex justify-center items-center w-full">
         <h1 className="text-golden p-6 text-7xl text-center">
-          EQUIPE 3 VS EQUIPE 4
+          EQUIPE 1 VS EQUIPE 2
         </h1>
       </div>
       <div className="flex h-full justify-between mx-24">
