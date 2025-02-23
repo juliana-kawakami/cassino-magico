@@ -111,7 +111,7 @@
     {
       "id": 13,
       "level": "fácil",
-      "question": "Qual é a música?",
+      "question": "Qual é o nome da música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -120,7 +120,7 @@
     {
       "id": 14,
       "level": "médio",
-      "question": "Qual é a música?",
+      "question": "Qual é o nome da música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -129,7 +129,7 @@
     {
       "id": 15,
       "level": "difícil",
-      "question": "Qual é a música?",
+      "question": "Qual é o nome da música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
@@ -138,7 +138,7 @@
     {
       "id": 16,
       "level": "impossível",
-      "question": "Qual é a música?",
+      "question": "Qual é o nome da música?",
       "theme": "música",
       "image": "sem imagem",
       "extra": "",
