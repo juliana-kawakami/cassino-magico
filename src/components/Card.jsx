@@ -5,8 +5,8 @@ import "../app/globals.css"; // Certifique-se de importar o CSS global, se neces
 const Card = ({ points, href, id }) => {
   return (
     <Link href={`${href}?id=${id}`} passHref>
-      <div className="relative flex items-center justify-center w-56 h-32 text-[#5b3624] text-5xl font-bold">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f5f0e6] to-[#efe7dd] clip-hexagon"></div>
+      <div className="relative flex items-center justify-center w-56 h-32 text-darkbrown text-5xl font-bold">
+        <div className="absolute inset-0 bg-gradient-to-b from-white to-beige clip-hexagon hover:opacity-70"></div>
         <span className="relative">{points}</span>
       </div>
     </Link>
