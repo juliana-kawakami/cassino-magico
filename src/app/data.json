@@ -5,7 +5,6 @@
       "level": "fácil",
       "question": "Qual foi o primeiro jogo desenvolvido pela Nintendo a apresentar o personagem Mario, lançado originalmente em 1981 para fliperamas?",
       "theme": "jogos",
-      "image": "sem imagem",
       "extra": "Por qual nome ele era conhecido naquela época?",
       "time": 30
     },
@@ -14,7 +13,6 @@
       "level": "médio",
       "question": "Quais são os 4 primeiros gêneros de jogos mais jogados atualmente?",
       "theme": "jogos",
-      "image": "sem imagem",
       "extra": "O gênero “metroidvania” foi criado a partir de uma junção de estilos de 2 jogos, quais são eles?",
       "time": 30
     },
@@ -23,7 +21,6 @@
       "level": "difícil",
       "question": "Qual é o KONAMI Code?",
       "theme": "jogos",
-      "image": "sem imagem",
       "extra": "No jogo Contra, o que é KONAMI Code fazia?",
       "time": 60
     },
@@ -32,7 +29,6 @@
       "level": "impossível",
       "question": "De qual jogo era o primeiro “easter egg” criado na história dos jogos?",
       "theme": "jogos",
-      "image": "sem imagem",
       "extra": "Para qual console esse jogo foi desenvolvido?",
       "time": 60
     },
@@ -41,7 +37,6 @@
       "level": "fácil",
       "question": "Qual é o título do filme que retrata a história de um matemático britânico e sua equipe, que foram responsáveis por decifrar o código da máquina Enigma durante a Segunda Guerra Mundial?",
       "theme": "cinema",
-      "image": "sem imagem",
       "extra": "Qual era o objetivo da máquina Enigma?",
       "time": 30
     },
@@ -50,7 +45,6 @@
       "level": "médio",
       "question": "No filme de terror 'O Chamado', há uma cena icônica em que os personagens descobrem uma fita VHS misteriosa. Qual é o conteúdo dessa fita e qual é o significado por trás da mensagem 'sete dias' que está ligada a ela?",
       "theme": "cinema",
-      "image": "sem imagem",
       "extra": "Quantos filmes de 'O Chamado' existem no total?",
       "time": 30
     },
@@ -59,7 +53,6 @@
       "level": "difícil",
       "question": "Qual o primeiro longa-metragem totalmente animado por computador?",
       "theme": "cinema",
-      "image": "sem imagem",
       "extra": "Em 1995, quanto tempo durava, em média, para se produzir 3 minutos de animação do filme?",
       "time": 60
     },
@@ -68,7 +61,6 @@
       "level": "impossível",
       "question": "Quantos Oscars conquistou o filme 'O Senhor dos Anéis: O Retorno do Rei'?",
       "theme": "cinema",
-      "image": "sem imagem",
       "extra": "Qual outro filme também possui 11 Oscars?",
       "time": 60
     },
@@ -77,7 +69,6 @@
       "level": "fácil",
       "question": "Estamos em qual geração da Evolução dos Computadores?",
       "theme": "história",
-      "image": "sem imagem",
       "extra": "",
       "time": 30
     },
@@ -86,7 +77,6 @@
       "level": "médio",
       "question": "Qual o significado da abreviação WWW?",
       "theme": "história",
-      "image": "sem imagem",
       "extra": "Quem inventou o WWW? (Fazer um jogo da forca se estiver muito difícil pra eles)",
       "time": 30
     },
@@ -95,7 +85,6 @@
       "level": "difícil",
       "question": "Quem foi o responsável por projetar a Máquina Analítica?",
       "theme": "história",
-      "image": "sem imagem",
       "extra": "Uma pessoa colaborou muito no desenvolvimento desse projeto, quem é?",
       "time": 60
     },
@@ -104,7 +93,6 @@
       "level": "impossível",
       "question": "Qual foi o objetivo principal do ENIAC?",
       "theme": "história",
-      "image": "sem imagem",
       "extra": "Pegarem os celulares e procurarem os nomes das pessoas que desenvolveram o ENIAC. A equipe que trouxer por escrito na folha de papel, todos os nomes corretos, ganha o prêmio da pergunta.",
       "time": 60
     },
@@ -113,7 +101,7 @@
       "level": "fácil",
       "question": "Qual é o nome da música?",
       "theme": "música",
-      "image": "sem imagem",
+      "song": "/musica1.mp3",
       "extra": "",
       "time": 30
     },
@@ -122,7 +110,7 @@
       "level": "médio",
       "question": "Qual é o nome da música?",
       "theme": "música",
-      "image": "sem imagem",
+      "song": "/musica2.mp3",
       "extra": "",
       "time": 30
     },
@@ -131,7 +119,7 @@
       "level": "difícil",
       "question": "Qual é o nome da música?",
       "theme": "música",
-      "image": "sem imagem",
+      "song": "/musica3.mp3",
       "extra": "",
       "time": 60
     },
@@ -140,7 +128,7 @@
       "level": "impossível",
       "question": "Qual é o nome da música?",
       "theme": "música",
-      "image": "sem imagem",
+      "song": "/musica5.mp3",
       "extra": "",
       "time": 60
     },
