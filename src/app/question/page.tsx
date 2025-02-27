@@ -61,6 +61,11 @@ function QuestionContent() {
 
   return (
     <div className="flex flex-col gap-8">
+      <div
+        className="absolute top-5 left-5 w-[100px] h-[50px] bg-[#800000] hexagon-button flex justify-center items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-xl active:scale-110"
+        onClick={() => router.back()}
+      ></div>
+
       <h1 className="text-golden p-6 text-7xl text-center">
         {question.level.toUpperCase()} - {question.theme.toUpperCase()}
       </h1>
