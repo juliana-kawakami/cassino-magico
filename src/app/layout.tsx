@@ -11,7 +11,6 @@ interface RootLayoutProps {
   children: ReactNode;
 }
 
-
 const montserrat = Montserrat({
   subsets: ["latin"], 
   display: "swap", 

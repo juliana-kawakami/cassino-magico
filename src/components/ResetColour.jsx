@@ -9,9 +9,9 @@ const ResetColour = () => {
   };
 
   return (
-    <button 
-      onClick={handleReset} 
-      className="flex items-center gap-2 text-beige bg-darkbrown p-2 rounded-lg"
+    <button
+      onClick={handleReset}
+      className="flex items-center gap-2 text-beige bg-darkbrown p-2 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105"
     >
       <ArrowCounterClockwise size={32} />
     </button>
