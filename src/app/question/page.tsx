@@ -50,8 +50,8 @@ function QuestionContent() {
 
   useEffect(() => {
     if (timeLeft === 0) {
-      // Redireciona para outra página quando o tempo chegar a zero
-      router.push("/time-over"); // Substitua "/outra-pagina" pela rota desejada
+      // Redireciona para página time-over quando o tempo chegar a zero
+      router.push("/time-over");
     }
   }, [timeLeft, router]);
 

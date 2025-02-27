@@ -15,11 +15,11 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="w-full h-full overflow-hidden">
       <img
-        src="/cassino.svg"
+        src="/cassino3.svg"
         alt="Iniciar jogo"
-        className={`object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+        className={`w-[1000px] h-fit object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
           isSelected ? "animate-spin-outline" : "" // Aplica a animação quando selecionada
         }`}
         onClick={handleClick} // Usa a função handleClick para gerenciar o clique
