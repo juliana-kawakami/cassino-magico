@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import Themes from "../../components/Themes";
 import ResetColour from "../../components/ResetColour";
 
