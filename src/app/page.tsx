@@ -1,6 +1,6 @@
 import "./globals.css";
 import Themes from "../components/Themes";
-
+import ResetColour from "../components/ResetColour";
 
 export default function Home() {
   return (
@@ -16,6 +16,9 @@ export default function Home() {
         <Themes theme="HISTÓRIA" />
         <Themes theme="MÚSICA" />
         <Themes theme="ENIGMAS" />
+      </div>
+      <div className="top-0 right-0 absolute mt-2 mr-2">
+        <ResetColour />
       </div>
     </div>
   );
