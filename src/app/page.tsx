@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const router = useRouter();
@@ -16,13 +17,16 @@ export default function Home() {
 
   return (
     <div className="w-full h-full overflow-hidden">
-      <img
+      <Image
         src="/cassino.svg"
         alt="Iniciar jogo"
-        className={`w-[1000px] h-fit object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
-          isSelected ? "animate-spin-outline" : "" // Aplica a animação quando selecionada
+        width={1000}
+        height={0} // Altura será ajustada automaticamente
+        className={`h-auto object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+          isSelected ? "animate-spin-outline" : "" 
         }`}
-        onClick={handleClick} // Usa a função handleClick para gerenciar o clique
+        onClick={handleClick}
+        priority
       />
     </div>
   );

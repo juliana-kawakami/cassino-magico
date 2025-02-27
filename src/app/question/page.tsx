@@ -25,10 +25,6 @@ function QuestionContent() {
   const [isPlaying, setIsPlaying] = useState(false); // Mova o useState para o corpo do componente
   const audioRef = useRef<HTMLAudioElement | null>(null); // Mova o useRef para o corpo do componente
 
-  const themeQuestions = data.questions.filter(
-    (q) => q.theme.toUpperCase() === question?.theme.toUpperCase()
-  );
-
   useEffect(() => {
     if (id) {
       // Encontra a pergunta correspondente no JSON
