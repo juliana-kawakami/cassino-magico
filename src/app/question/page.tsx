@@ -11,8 +11,8 @@ interface Question {
   question: string;
   theme: string;
   time: number;
-  song?: string;
-  image?: string;
+  song?: string | null;
+  image?: string | null;
 }
 
 function QuestionContent() {
@@ -102,7 +102,7 @@ function QuestionContent() {
             >
               {isPlaying ? "Pausar Música" : "Tocar Música"}
             </button>
-            <audio ref={audioRef} src={question.song} />
+            <audio ref={audioRef} src={question.song || ""} />
           </div>
         )}
         <p className="text-brown text-4xl p-14 text-center">
