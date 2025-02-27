@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="w-full h-full overflow-hidden">
       <img
-        src="/cassino3.svg"
+        src="/cassino.svg"
         alt="Iniciar jogo"
         className={`w-[1000px] h-fit object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
           isSelected ? "animate-spin-outline" : "" // Aplica a animação quando selecionada
