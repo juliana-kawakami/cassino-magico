@@ -20,7 +20,7 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-br" className={montserrat.className}>
-      <body className="w-[1920px]">{children}</body>
+      <body className="w-[1920px] vsc-initialized">{children}</body>
     </html>
   );
 }
