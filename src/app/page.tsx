@@ -1,22 +1,29 @@
-import "./globals.css";
-import Themes from "../components/Themes";
+"use client";
 
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function Home() {
+  const router = useRouter();
+  const [isSelected, setIsSelected] = useState(false); // Estado para controlar a animação
+
+  const handleClick = () => {
+    setIsSelected(true); // Ativa a animação
+    setTimeout(() => {
+      router.push("/home"); // Redireciona após um delay
+    }, 2000); // Delay de 2 segundos (tempo da animação)
+  };
+
   return (
-    <div className="flex flex-col h-full w-full gap-5">
-      <div className="flex justify-center items-center w-full">
-        <h1 className="text-golden p-6 text-7xl text-center">
-          EQUIPE 1 VS EQUIPE 2
-        </h1>
-      </div>
-      <div className="flex h-full justify-between mx-24">
-        <Themes theme="JOGOS" />
-        <Themes theme="CINEMA" />
-        <Themes theme="HISTÓRIA" />
-        <Themes theme="MÚSICA" />
-        <Themes theme="ENIGMAS" />
-      </div>
+    <div>
+      <img
+        src="/cassino.svg"
+        alt="Iniciar jogo"
+        className={`object-cover cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+          isSelected ? "animate-spin-outline" : "" // Aplica a animação quando selecionada
+        }`}
+        onClick={handleClick} // Usa a função handleClick para gerenciar o clique
+      />
     </div>
   );
 }
