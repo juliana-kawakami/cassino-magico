@@ -11,6 +11,8 @@ interface Question {
   question: string;
   theme: string;
   time: number;
+  song?: string;
+  image?: string;
 }
 
 function QuestionContent() {
