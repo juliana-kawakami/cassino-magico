@@ -3,7 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import data from "../data.json";
 import "../globals.css";
-import { useEffect, useState, Suspense } from "react";
+import { useEffect, useState, Suspense, useRef } from "react";
 
 interface Question {
   id: number;
@@ -11,6 +11,8 @@ interface Question {
   question: string;
   theme: string;
   time: number;
+  song?: string | null;
+  image?: string | null;
 }
 
 function QuestionContent() {
@@ -20,6 +22,8 @@ function QuestionContent() {
 
   const [question, setQuestion] = useState<Question | null>(null);
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false); // Mova o useState para o corpo do componente
+  const audioRef = useRef<HTMLAudioElement | null>(null); // Mova o useRef para o corpo do componente
 
   useEffect(() => {
     if (id) {
@@ -55,6 +59,17 @@ function QuestionContent() {
     }
   }, [timeLeft, router]);
 
+  const togglePlay = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause(); // Pausa a música
+      } else {
+        audioRef.current.play(); // Toca a música
+      }
+      setIsPlaying(!isPlaying); // Atualiza o estado
+    }
+  };
+
   if (!question) {
     return <div>Pergunta não encontrada.</div>;
   }
@@ -73,6 +88,19 @@ function QuestionContent() {
         <p className="text-brown font-semibold text-4xl p-14 text-center">
           {question.question}
         </p>
+        {/* Renderização condicional para o tema "MÚSICA" */}
+        {question.theme.toUpperCase() === "MÚSICA" && (
+          <div className="text-brown text-4xl p-14 text-center">
+            {/* Aqui você pode adicionar o conteúdo específico para o tema "MÚSICA" */}
+            <button
+              onClick={togglePlay} // Usa a função togglePlay
+              className="mt-4 px-6 py-3 bg-golden text-white rounded-lg hover:bg-yellow-600"
+            >
+              {isPlaying ? "Pausar Música" : "Tocar Música"}
+            </button>
+            <audio ref={audioRef} src={question.song || ""} />
+          </div>
+        )}
         <p className="text-brown text-4xl p-14 text-center">
           TEMPO DE RESPOSTA: {timeLeft !== null ? timeLeft : question.time} SEG
         </p>
