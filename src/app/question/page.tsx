@@ -4,6 +4,9 @@ import { useSearchParams, useRouter } from "next/navigation";
 import data from "../data.json";
 import "../globals.css";
 import { useEffect, useState, Suspense, useRef } from "react";
+import Image from "next/image";
+import IncreaseTime from "../../components/IncreaseTime";
+import DecreaseTime from "../../components/DecreaseTime";
 
 interface Question {
   id: number;
@@ -24,6 +27,14 @@ function QuestionContent() {
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [isPlaying, setIsPlaying] = useState(false); // Mova o useState para o corpo do componente
   const audioRef = useRef<HTMLAudioElement | null>(null); // Mova o useRef para o corpo do componente
+
+  const increaseTime = () => {
+    setTimeLeft((prev) => (prev !== null ? prev * 2 : 0));
+  };
+
+  const decreaseTime = () => {
+    setTimeLeft((prev) => (prev !== null ? Math.floor(prev / 2) : 0));
+  };
 
   useEffect(() => {
     if (id) {
@@ -84,10 +95,30 @@ function QuestionContent() {
       <h1 className="text-golden p-6 text-7xl text-center">
         {question.level.toUpperCase()} - {question.theme.toUpperCase()}
       </h1>
-      <div className="flex flex-col justify-between h-[600px] bg-beige mx-60 rounded-xl">
+      <div className="flex flex-col justify-between h-[700px] bg-beige mx-60 rounded-xl">
         <p className="text-brown font-semibold text-4xl p-14 text-center">
           {question.question}
         </p>
+        {question.image === "/enigma1.png" && (
+          <div className="flex justify-center">
+            <Image
+              src={question.image}
+              alt="Imagem da pergunta"
+              width={180}
+              height={300}
+            />
+          </div>
+        )}
+        {question.image === "/enigma2.png" && (
+          <div className="flex justify-center">
+            <Image
+              src={question.image}
+              alt="Imagem da pergunta"
+              width={400}
+              height={300}
+            />
+          </div>
+        )}
         {/* Renderização condicional para o tema "MÚSICA" */}
         {question.theme.toUpperCase() === "MÚSICA" && (
           <div className="text-brown text-4xl p-14 text-center">
@@ -104,6 +135,11 @@ function QuestionContent() {
         <p className="text-brown text-4xl p-14 text-center">
           TEMPO DE RESPOSTA: {timeLeft !== null ? timeLeft : question.time} SEG
         </p>
+      </div>
+      {/* Botões para aumentar/diminuir o tempo */}
+      <div className="fixed bottom-5 right-5 flex gap-4">
+        <DecreaseTime onDecrease={decreaseTime} />
+        <IncreaseTime onIncrease={increaseTime} />
       </div>
     </div>
   );
