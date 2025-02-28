@@ -34,7 +34,11 @@ Para executar o projeto localmente, siga os passos abaixo:
 ```bash
 npm install
 npm run dev
-```  
+```
+
+Após iniciar o servidor, acesse o projeto no navegador através do link:
+
+➡️ **[http://localhost:3000](http://localhost:3000)**  
 
 ## 🌍 Acesse o Deploy  
 
