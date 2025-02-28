@@ -166,7 +166,7 @@
       "question": "O enigma de Bernard Werber. Qual a próxima sequência da pirâmide?",
       "theme": "enigmas",
       "song": null,
-      "image": "sem imagem",
+      "image": "/enigma1.png",
       "extra": "",
       "time": 60
     },
@@ -175,7 +175,7 @@
       "level": "médio",
       "question": "Como pode o número quatro ser metade do cinco?",
       "theme": "enigmas",
-      "image": "sem imagem",
+      "image": null,
       "song": null,
       "extra": "",
       "time": 120
@@ -186,7 +186,7 @@
       "question": "Remova 9 palitos desta figura, de forma que não sobre nenhum quadrado",
       "theme": "enigmas",
       "song": null,
-      "image": "sem imagem",
+      "image": "/enigma2.png",
       "extra": "",
       "time": 120
     },
@@ -196,7 +196,7 @@
       "question": "Encontre o próximo número da seguinte sequência e justifique: 8 1 7 6 2 8 9 1 _",
       "theme": "enigmas",
       "song": null,
-      "image": "sem imagem",
+      "image": null,
       "extra": "",
       "time": 120
     }
