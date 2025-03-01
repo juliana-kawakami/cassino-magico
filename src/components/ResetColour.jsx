@@ -5,7 +5,8 @@ import { ArrowCounterClockwise } from "@phosphor-icons/react";
 const ResetColour = () => {
   const handleReset = () => {
     localStorage.clear(); // Remove todas as informações salvas
-    window.dispatchEvent(new Event("resetCards")); // Dispara um evento global para os cards
+    window.dispatchEvent(new Event("resetCards")); // Dispara um evento para os cards
+    window.dispatchEvent(new Event("resetPoints")); // Novo evento para resetar os pontos
   };
 
   return (
