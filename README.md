@@ -7,18 +7,18 @@ Bem-vindo ao repositório do **Cassino Mágico**, uma atividade interativa desen
 
 A proposta do **Cassino Mágico** foi inicialmente concebida durante a Recepção de Calouros 2024, idealizada por:  
 
-- **Gabriel Libardi Lulu**  
-- **Juliana Naomi Kawakami**  
-- **Matheus Cenerini Jacomini**  
+- **[Gabriel Libardi Lulu](https://github.com/gabriellibardi)**  
+- **[Juliana Naomi Kawakami](https://github.com/juliana-kawakami)**  
+- **[Matheus Cenerini Jacomini](https://github.com/Mathayuz)**  
 
 Posteriormente, na Recepção de Calouros 2025, a ideia foi aprimorada e implementada por:  
 
-- **Gabriel Balancieri Perassoli**  
-- **Gabriel Libardi Lulu**  
-- **Juliana Naomi Kawakami**  
-- **Matheus Cenerini Jacomini** 
+## Colaboradores
 
-Essa colaboração resultou na versão final apresentada neste repositório.
+- **[Gabriel Balancieri Perassoli](https://github.com/GabrielBalancieriPerassoli)**  
+- **[Gabriel Libardi Lulu](https://github.com/gabriellibardi)**  
+- **[Juliana Naomi Kawakami](https://github.com/juliana-kawakami)**  
+- **[Matheus Cenerini Jacomini](https://github.com/Mathayuz)**  
 
 ## 📄 Documentação  
 
