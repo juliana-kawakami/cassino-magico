@@ -96,7 +96,7 @@ function QuestionContent() {
         {question.level.toUpperCase()} - {question.theme.toUpperCase()}
       </h1>
       <div className="flex flex-col justify-between h-[700px] bg-beige mx-60 rounded-xl">
-        <p className="text-brown font-semibold text-4xl p-14 text-center">
+        <p className="text-brown font-semibold text-5xl p-14 text-center">
           {question.question}
         </p>
         {question.image === "/enigma1.png" && (
@@ -104,12 +104,22 @@ function QuestionContent() {
             <Image
               src={question.image}
               alt="Imagem da pergunta"
-              width={180}
+              width={175}
               height={300}
             />
           </div>
         )}
         {question.image === "/enigma2.png" && (
+          <div className="flex justify-center">
+            <Image
+              src={question.image}
+              alt="Imagem da pergunta"
+              width={290}
+              height={300}
+            />
+          </div>
+        )}
+        {question.image === "/enigma3.png" && (
           <div className="flex justify-center">
             <Image
               src={question.image}

@@ -3,9 +3,9 @@
     {
       "id": 1,
       "level": "fácil",
-      "question": "Qual foi o primeiro jogo desenvolvido pela Nintendo a apresentar o personagem Mario, lançado originalmente em 1981 para fliperamas?",
+      "question": "Qual foi o primeiro jogo da Nintendo a apresentar o personagem Mario, lançado em 1981 para fliperamas?",
       "theme": "jogos",
-      "extra": "Por qual nome ele era conhecido naquela época?",
+      "extra": "Por qual nome ele era conhecido naquela época",
       "time": 30,
       "song": null,
       "image": null
@@ -13,9 +13,9 @@
     {
       "id": 2,
       "level": "médio",
-      "question": "Quais são os 4 primeiros gêneros de jogos mais jogados atualmente?",
+      "question": "Qual a linguagem de programação mais utilizada para desenvolvimento de jogos atualmente?",
       "theme": "jogos",
-      "extra": "O gênero “metroidvania” foi criado a partir de uma junção de estilos de 2 jogos, quais são eles?",
+      "extra": "Qual linguagem de programação, também famosa por sua utilização em desenvolvimento de jogos, foi criada por brasileiros?",
       "time": 30,
       "song": null,
       "image": null
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "level": "fácil",
-      "question": "Qual é o título do filme que retrata a história de um matemático britânico e sua equipe, que foram responsáveis por decifrar o código da máquina Enigma durante a Segunda Guerra Mundial?",
+      "question": "Qual é o filme que retrata a história de um matemático britânico, que decifrou o código da máquina Enigma durante a Segunda Guerra Mundial?",
       "theme": "cinema",
       "extra": "Qual era o objetivo da máquina Enigma?",
       "time": 30,
@@ -53,9 +53,9 @@
     {
       "id": 6,
       "level": "médio",
-      "question": "No filme de terror 'O Chamado', há uma cena icônica em que os personagens descobrem uma fita VHS misteriosa. Qual é o conteúdo dessa fita e qual é o significado por trás da mensagem 'sete dias' que está ligada a ela?",
+      "question": "No filme WALL-E da Pixar, qual é a função principal de WALL-E na Terra?",
       "theme": "cinema",
-      "extra": "Quantos filmes de 'O Chamado' existem no total?",
+      "extra": "Qual o nome do outro robô que WALL-E se apaixona?",
       "time": 30,
       "song": null,
       "image": null
@@ -65,7 +65,7 @@
       "level": "difícil",
       "question": "Qual o primeiro longa-metragem totalmente animado por computador?",
       "theme": "cinema",
-      "extra": "Em 1995, quanto tempo durava, em média, para se produzir 3 minutos de animação do filme?",
+      "extra": "Qual o nome do urso de pelúcia que aparece em Toy Story 3?",
       "time": 60,
       "song": null,
       "image": null
@@ -83,9 +83,9 @@
     {
       "id": 9,
       "level": "fácil",
-      "question": "Estamos em qual geração da Evolução dos Computadores?",
+      "question": "Qual o significado da abreviação WWW?",
       "theme": "história",
-      "extra": "",
+      "extra": "Quem inventou o WWW?",
       "time": 30,
       "song": null,
       "image": null
@@ -93,9 +93,9 @@
     {
       "id": 10,
       "level": "médio",
-      "question": "Qual o significado da abreviação WWW?",
+      "question": "Estamos em qual geração da evolução dos computadores?",
       "theme": "história",
-      "extra": "Quem inventou o WWW? (Fazer um jogo da forca se estiver muito difícil pra eles)",
+      "extra": "Qual geração dos computadores foi inventado o mouse?",
       "time": 30,
       "song": null,
       "image": null
@@ -103,9 +103,9 @@
     {
       "id": 11,
       "level": "difícil",
-      "question": "Quem foi o responsável por projetar a Máquina Analítica?",
+      "question": "Qual o nome do primeiro computador eletrônico em grande escala criado?",
       "theme": "história",
-      "extra": "Uma pessoa colaborou muito no desenvolvimento desse projeto, quem é?",
+      "extra": "Qual o significado da sigla ENIAC?",
       "time": 60,
       "song": null,
       "image": null
@@ -113,9 +113,9 @@
     {
       "id": 12,
       "level": "impossível",
-      "question": "Qual foi o objetivo principal do ENIAC?",
+      "question": "Qual era o principal objetivo dos cartões-perfurados?",
       "theme": "história",
-      "extra": "Pegarem os celulares e procurarem os nomes das pessoas que desenvolveram o ENIAC. A equipe que trouxer por escrito na folha de papel, todos os nomes corretos, ganha o prêmio da pergunta.",
+      "extra": "Equipe pesquisa qual era o nome dos criadores dos cartões-perfurados.",
       "time": 60,
       "song": null,
       "image": null
@@ -173,10 +173,10 @@
     {
       "id": 18,
       "level": "médio",
-      "question": "Como pode o número quatro ser metade do cinco?",
+      "question": "Abaixo vemos 3 equações 'horizontais' e 1 'vertical'. Realoque os números para solucionar as equações.",
       "theme": "enigmas",
-      "image": null,
       "song": null,
+      "image": "/enigma2.png",
       "extra": "",
       "time": 120
     },
@@ -186,7 +186,7 @@
       "question": "Remova 9 palitos desta figura, de forma que não sobre nenhum quadrado",
       "theme": "enigmas",
       "song": null,
-      "image": "/enigma2.png",
+      "image": "/enigma3.png",
       "extra": "",
       "time": 120
     },
